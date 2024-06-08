@@ -6,28 +6,31 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'LQZ-个人技术博客',
+  description: '技术改变人生！',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
 
     navbar: [
-      '/',
       {
-        text: 'Article',
+        text:"主页",
+        link:"/",
+      },
+      {
+        text: '文章',
         link: '/article/',
       },
       {
-        text: 'Category',
+        text: '分类',
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '标签',
         link: '/tag/',
       },
       {
-        text: 'Timeline',
+        text: '时间线',
         link: '/timeline/',
       },
     ],
