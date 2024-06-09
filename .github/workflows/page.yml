@@ -1,0 +1,2 @@
+markdown:
+  extensions: ["no_processor"] # 指定不自动转换的扩展名列表
