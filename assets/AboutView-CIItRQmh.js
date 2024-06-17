@@ -1,0 +1,1 @@
+import{l as o}from"./loglevel-B2dhcVwj.js";import{c as t,a9 as e,f as a,h as s}from"./vue-bkblnezT.js";const n={class:"about"},d={__name:"AboutView",setup(u){return t(()=>{o.debug("挂载about组件！")}),e(()=>{o.debug("卸载about组件！")}),(c,r)=>(a(),s("div",n))}};export{d as default};
